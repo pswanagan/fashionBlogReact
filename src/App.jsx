@@ -1,19 +1,22 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+
 import './App.css'
 
+import Header from './components/Header';
+
+import Article from './components/Article';
+import Footer from './components/Footer';
+
 function App() {
-
-
   return (
     <div>
       <Header />
       <main>
-        {/* Here, you can map through your articles data and render Article components */}
+        <Article date="11/12/20" title="On the Street in Brooklyn" imageSrc="./assets/blog-image-1.jpg" />
+        <Article date="11/11/20" title="Vintage in Vogue" imageSrc="./assets/blog-image-2.jpg" />
       </main>
       <Footer />
     </div>
   );
 }
 
-export default App
+export default App;

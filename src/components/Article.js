@@ -1,12 +1,20 @@
-function Article({ date, title, image, summary }) {
+/* eslint-disable react/prop-types */
+
+function Article({ date, title, imageSrc }) {
     return (
-      <article>
-        <h3>{date}</h3>
+      <div>
+        <h4>{date}</h4>
         <h2>{title}</h2>
-        <img src={image} alt={title} />
-        <p>{summary}</p>
-        {/* Continue link */}
-      </article>
+        <img src={imageSrc} alt={`Image for ${title}`} />
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+          </p>
+        </article>
+        <a href="" className="Continues"><b>Continues...</b></a>
+        <br />
+        <hr />
+      </div>
     );
   }
   

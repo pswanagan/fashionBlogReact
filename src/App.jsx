@@ -11,8 +11,8 @@ function App() {
     <div>
       <Header />
       <main>
-        <Article date="11/12/20" title="On the Street in Brooklyn" imageSrc="./assets/blog-image-1.jpg" />
-        <Article date="11/11/20" title="Vintage in Vogue" imageSrc="./assets/blog-image-2.jpg" />
+        <Article date="11/12/20" title="On the Street in Brooklyn" imageSrc="..\src\assets\blog-image-1.jpg" />
+        <Article date="11/11/20" title="Vintage in Vogue" imageSrc="..\src\assets\blog-image-2.jpg" />
       </main>
       <Footer />
     </div>
